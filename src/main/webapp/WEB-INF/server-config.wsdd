@@ -47,6 +47,7 @@
    <ns1:parameter qname="ns3:password" type="xsd:string"/>
   </ns1:operation>
   <ns1:parameter name="allowedMethods" value="addUser getUserFullName login"/>
+  <ns1:parameter name="scope" value="application"/>
   <ns1:parameter name="typeMappingVersion" value="1.2"/>
   <ns1:parameter name="wsdlPortType" value="UserManager"/>
   <ns1:parameter name="className" value="userManager.UserManager"/>
